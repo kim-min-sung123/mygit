@@ -1,0 +1,41 @@
+00
+00
+08
+8C // lw : inst addr 0x0000_0000
+04
+00
+09
+8C // lw : inst addr 0x0000_0004
+20
+52
+09
+01  // add : inst addr 0x0000_0008
+08
+00
+0A
+AC  // sw : inst addr 0x0000_000C
+02
+00
+09
+11 // beq : inst addr 0x0000_0010
+22
+58
+09
+01 // sub to t3 : inst addr 0x0000_0014
+08
+00
+00
+08 // j : inst addr 0x0000_0018
+20
+58
+09
+01 // else(add) : inst addr 0x0000_001C
+0C
+00
+0B
+AC // sw : inst addr 0x0000_0020
+00
+00
+00
+00 // exit : inst addr 0x0000_0024
+
