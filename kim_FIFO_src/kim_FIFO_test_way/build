@@ -1,0 +1,4 @@
+xvlog ./kim_FIFO_control.v ./kim_FIFO_mem.v ./kim_FIFO_top.v ./tb_kim_FIFO.v -d TEST_NUM=100
+xelab tb_kim_FIFO -debug wave -s tb_kim_FIFO -d TEST_NUM=100
+#xsim tb_kim_FIFO -R  # do not check waveform
+xsim tb_kim_FIFO -gui -wdb simulate_xsim_tb_kim_FIFO.wdb -tclbatch matbi_sim.tcl --sv_seed 1001 &

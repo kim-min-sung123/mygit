@@ -1,0 +1,9 @@
+WARNING: [XSIM 43-3479] Unable to increase the current process stack size.
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/d/home/Matbi_VerilogHDL_Season2/Lecture_chapter/chapter_6/kim_FIFO_control.v" into library work
+INFO: [VRFC 10-311] analyzing module kim_FIFO_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/d/home/Matbi_VerilogHDL_Season2/Lecture_chapter/chapter_6/kim_FIFO_mem.v" into library work
+INFO: [VRFC 10-311] analyzing module kim_FIFO_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/d/home/Matbi_VerilogHDL_Season2/Lecture_chapter/chapter_6/kim_FIFO_top.v" into library work
+INFO: [VRFC 10-311] analyzing module kim_FIFO_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/d/home/Matbi_VerilogHDL_Season2/Lecture_chapter/chapter_6/tb_kim_FIFO.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_kim_FIFO
